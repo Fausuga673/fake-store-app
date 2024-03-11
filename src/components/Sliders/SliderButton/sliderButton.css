@@ -1,0 +1,22 @@
+.buttonContainer__left,
+.buttonContainer__right {
+  height: 100%;
+  width: 0px;
+  display: grid;
+  place-content: center;
+  position: relative;
+  z-index: 100;
+}
+
+.buttonContainer__left > button,
+.buttonContainer__right > button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #00c3ff;
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}

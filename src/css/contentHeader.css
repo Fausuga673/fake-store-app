@@ -1,0 +1,31 @@
+.content__header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content__header h2 {
+  color: #3c3c3c;
+  font-size: 28px;
+}
+
+.content__header--pages {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__header--pages-page {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #d5d5d5;
+  transition: 0.3s ease-out;
+}
+
+.active {
+  background: #00c3ff;
+}
