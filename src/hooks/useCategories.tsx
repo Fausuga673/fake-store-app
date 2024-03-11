@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import resultsCategories from "../mocks/resultsCategories.json";
 
 export default function useCategories() {
-  const [categories, setCategories] = useState<string[]>();
+  const [categories, setCategories] = useState<string[]>(resultsCategories);
 
   async function getCategories() {
     const response = await fetch(

@@ -9,7 +9,7 @@ export default function ContentHeader({
   const categoryName = sections[0][0].category;
 
   const categoryNameWithFirstLetterCapitalized =
-    categoryName[0].toUpperCase() + categoryName[0].slice(1);
+    categoryName[0].toUpperCase() + categoryName.slice(1);
 
   return (
     <article className="content__header">
